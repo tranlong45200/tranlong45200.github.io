@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    height: 100px;
+    background: rgb(63, 60, 60);
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    height: 70%;
+    width: 80%;
+    /* position: relative; */
+    align-items: center;
+    justify-content: space-between;
+}
+.capt{
+    height: 70%;
+    width: 30%;
+}
+.search{
+    width: 30%;
+    height: 55%;
+    background: white;
+    border-radius: 30px;
+    text-align: center;
+    color: orange;
+    /* border: 2px solid black; */
+}
+input{
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    border:2px solid rgb(214, 214, 13);
+}
+nav{
+    display:flex;
+    background: rgb(37, 36, 36);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+.line{
+    height: 2px;
+    background-color: rgb(199, 199, 39);
+}
+.items{
+    width: 20%;
+    height: 100%;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.items:hover{
+    background-color:rgb(102, 96, 96);
+    font-size: large;
+    color:oldlace;
+}
+.onitems{
+    display: none;
+    position: absolute;
+    top: 100%;
+
+}
+.items2{
+    text-align: center;
+    background:rgb(75, 71, 71);
+    color: white;
+    top :60px;
+}
+.items2:hover{
+    background-color:rgb(105, 96, 96);
+}
+.items:hover .onitems{
+    display: block;
+    width: 100%;
+    left: 0;
+}
+h1{
+    color: rgb(214, 214, 13);
+}
+.midle{
+    background-color: rgb(92, 84, 84);
+    height: 1000px;
+    margin-top:  -20px;
+}
+.bodyMid{
+    padding-left: 10% ;
+    padding-top: 3% ;
+    padding-right: 10%;
+}
+.lineInMid{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+.menuFilms{
+    display: flex;
+    height: 300px;
+    margin: 10px;
+}
+.films{
+    width: 25%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border: 2px solid rgb(110, 84, 35);
+    margin: 3px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.theEnd{
+    height: 200px;
+    width: 100%;
+}
